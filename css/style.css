@@ -1,0 +1,134 @@
+/* program */ 
+.program-link{
+    text-decoration: none;
+    color: black;
+}
+.program-link:hover{
+    color: blue;
+    font-size: 30px;
+}
+
+/* about */
+.testovi-application{
+    color: white;
+}
+.testovi-application:hover{
+    font-size: 30px;
+    color: #fdc400;
+}
+.prince-title{
+    text-align: center;
+    font-size: 35px;   
+}
+
+.about-prince{
+    top:10px;
+    margin-left: 2%;
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.about-des{
+    font-size: 25px;
+    text-align: center;
+}
+.other-cost {
+    display:inline-block;
+    width: 60%;
+    margin-left: 2%;
+    text-align: left;
+    vertical-align: top;
+}
+.about-other-cost{
+    background-color: #f2f2f2f2;
+    width: 100%;
+}
+.costs{
+    float: right;
+}
+.costs-sum{
+    margin:auto;
+}
+@media (max-width: 700px) {
+    .about-prince{
+        display: block;
+        width: 96%;
+        margin-left: 2%;
+    }
+    .about-des{
+        font-size: 20px;
+    }
+    .other-cost{
+        width: 96%;
+    }
+    .costs-sum{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+}
+.testovi{
+    color: white;
+    text-decoration: none;
+    
+}
+.testovi:hover{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+.gallery-item{
+    display: inline-block;
+    width: 360px;
+    height: 238px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;    
+}
+.gallery-item:hover{
+    opacity: 30%;
+}
+.gallery-image{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 700px){
+
+    .gallery-item{
+        margin-left: 35px;
+        width: 260px;
+        height: 172px;
+    }
+}
+@media (max-width: 1024px){
+    
+    .gallery-item{
+        margin-left: 35px;
+        width: 280px;
+        height: 185px;
+    }
+}
+
+
+/* contact */
+.alert{
+    background-color: lightgray;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alert-success{
+    color: green;
+}
+.alert-danger{
+    color: red;
+}
+
+
+
+
+
